@@ -1,0 +1,5 @@
+{
+    "bucket": "3dhistec-panno250--anno",
+    "files_location": "s3://3dhistec-panno250--anno/zarr/SJS_0011.zarr/",
+    "worker_location": "s3://batch-workers/3dHistecTiff.py"
+}

@@ -1,0 +1,107 @@
+{
+    "bucket": "3dhistec-panno250--raw",
+    "files": [
+        {
+            "etag": "ed630a5dd8edb46d856278edea6eb341",
+            "name": "SJS_0011.mrxs"
+        },
+        {
+            "etag": "8028f0e1a3ac7b8b0e044546e5532e37",
+            "name": "SJS_0011/Index.dat"
+        },
+        {
+            "etag": "5fd7aafa711c1ca8c7e46214f0140d33",
+            "name": "SJS_0011/Data0019.dat"
+        },
+        {
+            "etag": "949a32508d9e7ea3abaf0d776c24063d",
+            "name": "SJS_0011/Data0018.dat"
+        },
+        {
+            "etag": "8bed1992cfb48055700955f3051587ab",
+            "name": "SJS_0011/Data0020.dat"
+        },
+        {
+            "etag": "facb01b5dec0181193310208fa3194f3-5",
+            "name": "SJS_0011/Data0008.dat"
+        },
+        {
+            "etag": "00ec7614743394628aba4b1e7dfbac44-2",
+            "name": "SJS_0011/Data0009.dat"
+        },
+        {
+            "etag": "d65e0e2bff36953442a8998b9b599889",
+            "name": "SJS_0011/Data0021.dat"
+        },
+        {
+            "etag": "0e495a22e303e4d1cd52ceb893908b96",
+            "name": "SJS_0011/Data0013.dat"
+        },
+        {
+            "etag": "174abca420996a5b2c77a682d5520f44-15",
+            "name": "SJS_0011/Data0007.dat"
+        },
+        {
+            "etag": "134d3d90b0aa945201c30b79d17d1275",
+            "name": "SJS_0011/Data0006.dat"
+        },
+        {
+            "etag": "e2752a789976bd0c3fa8d9e9165f90ad",
+            "name": "SJS_0011/Data0012.dat"
+        },
+        {
+            "etag": "faac16b9d50c915b4223e3e5297251c1",
+            "name": "SJS_0011/Data0004.dat"
+        },
+        {
+            "etag": "e2905e895f9a0cd2f46c0f0e98f7b678",
+            "name": "SJS_0011/Data0010.dat"
+        },
+        {
+            "etag": "bbe91a484f2ea49ec69a2b2dcd459946",
+            "name": "SJS_0011/Data0011.dat"
+        },
+        {
+            "etag": "bf8eb11e7937c1c3486eff16c15dbe38-49",
+            "name": "SJS_0011/Data0005.dat"
+        },
+        {
+            "etag": "226a2eb6c9113a89d69ea16f6959be44",
+            "name": "SJS_0011/Slidedat.ini"
+        },
+        {
+            "etag": "9eebb02f4f3828a0ea10b2650068d13a",
+            "name": "SJS_0011/Data0001.dat"
+        },
+        {
+            "etag": "4bbb2e04edbbcb84214c6437d203b99e",
+            "name": "SJS_0011/Data0015.dat"
+        },
+        {
+            "etag": "e7f62ee3c3886b1557ea6c3ce2704024",
+            "name": "SJS_0011/Data0014.dat"
+        },
+        {
+            "etag": "a665a0b78b821c5714b865a55f813b67",
+            "name": "SJS_0011/Data0000.dat"
+        },
+        {
+            "etag": "abebb38ac909a32a9d471fbe59ceccda",
+            "name": "SJS_0011/Data0016.dat"
+        },
+        {
+            "etag": "b90d944002bc93e8f7315054ac134298",
+            "name": "SJS_0011/Data0002.dat"
+        },
+        {
+            "etag": "d4ce36776cee2ab1bda78a36f17030bb",
+            "name": "SJS_0011/Data0003.dat"
+        },
+        {
+            "etag": "3bcd897a7b313f8afdc8012c86a45cd3",
+            "name": "SJS_0011/Data0017.dat"
+        }
+    ],
+    "files_location": "s3://3dhistec-panno250--raw/SJS_0011.mrxs",
+    "worker_location": "s3://batch-workers/3dHistecZarr.py"
+}

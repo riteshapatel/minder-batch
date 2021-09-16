@@ -57,25 +57,19 @@ def main(files_location):
         subprocess.run(cmd)
 
         print("processing zarr conversion...")
-        cmd = shlex.split("/opt/bioformats/bioformats2raw/bin/bioformats2raw  -r5 -c blosc ./" + key + " ./zarr/" + justname + ".zarr")
-        result = subprocess.run(cmd)
-
-        returncode = result.returncode
         # let zarr conversion complete
         print("waiting for zarr conversion to complete...")
-        cmd = shlex.split("sleep 180s")
-        subprocess.run(cmd)
-
-        print("zarr conversion complete!")
+        cmd = shlex.split("/opt/bioformats/bioformats2raw/bin/bioformats2raw  -r5 -c blosc ./" + key + " ./zarr/" + justname + ".zarr")
+        result = subprocess.run(cmd)
+        returncode = result.returncode
 
         cmd = shlex.split("ls -all")
         subprocess.run(cmd) 
 
-        print("preparing to push zarr files to s3...")
-
-        # upload directory to S3
-        print("pushing files to s3...")
         if (returncode == 0):
+            print("zarr conversion complete!")
+            # upload directory to S3
+            print("pushing files to s3...")            
             for dirpath, dirs, files in os.walk("zarr"):
                 for filename in files:
                     filepath = os.path.join(dirpath, filename) 
